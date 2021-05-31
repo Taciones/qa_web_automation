@@ -1,0 +1,19 @@
+home_page:
+  fleury_div: div[id='___gatsby']
+  header_unidades: a[id='button-title-desktop-header']
+
+
+rota_unidades:
+  click_facilidade: div[id='checkoox-select-facilities']
+  div_select: div[class='hverji']
+  selecao_acessibilidade: label[for='_Acessibilidade']
+  selecao_Vaga_Verde_Para_Carro_Elétrico: label[for='_Vaga Verde Para Carro Elétrico']
+  selecao_Próximo_ao_metrô: label[for='_Próximo ao metrô']
+  selecao_bicicletario_e_vaga_verde: label[for='_Bicicletário e vaga verde']
+  selecao_atendimento_aos_domingos: label[for='_Atendimento aos domingos']
+  selecao_vacinacao: label[for='_Vacinação']
+  selecao_ultrassonografia_via_atendimento_movel: label[for='_Ultrassonografia via atendimento móvel']
+  selecao_atendimento_noturno: label[for='_Atendimento noturno']
+  selecao_unidades_em_shoppings: label[for='_Unidades em shoppings']
+  
+  

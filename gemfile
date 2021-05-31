@@ -4,6 +4,7 @@ gem 'capybara'
 gem 'cucumber'
 gem "ffi"
 gem 'json'
+gem "os"
 gem 'report_builder'
 gem 'rspec'
 gem 'selenium-webdriver'

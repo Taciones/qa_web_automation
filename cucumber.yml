@@ -1,0 +1,13 @@
+default: --no-source --color --format pretty --publish-quiet -p prod -p chrome -p json
+#default: -p dev -p chrome -p json -p pretty
+alure_report: --no-source --color --format pretty --publish-quiet
+cucumberio_report: --no-source --color --format pretty --publish
+#ci: -p dev -p headless -p json -p progress
+prod: ENV_TYPE=prod
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+html: --format html --out=log/report.html
+json: --format json --out=log/report.json
+pretty: --format pretty
+progress: --format progress
