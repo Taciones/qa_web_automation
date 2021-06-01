@@ -15,7 +15,6 @@ class HomePage
 
     def acessar_unidades
         all(ELEMENTS["home_page"]["header_unidades"])[3].click
-        #find('#button-title-desktop-header').click
 
         begin
             assert_selector(ELEMENTS["home_page"]["header_unidades"])

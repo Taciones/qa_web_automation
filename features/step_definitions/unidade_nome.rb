@@ -7,7 +7,6 @@ Quando('acesso a pagina inicial do site Fleury') do
   end
   
   Quando('realizo um filtro pelas seguintes facilidades') do |table|
-    # table is a Cucumber::MultilineArgument::DataTable
     @data = table.raw
     table_0 = "selecao_" + @data[0][0].gsub!(/\s/,'_')
     table_1 = "selecao_" + @data[1][0].gsub!(/\s/,'_')
@@ -18,10 +17,12 @@ Quando('acesso a pagina inicial do site Fleury') do
   end
   
   Quando('seleciono a primeira unidade disponivel') do
-    first(:link, 'Ver detalhes').click
+    @unidade_nome = @unidades_page.get_first_name
+    @unidades_page.first_link
+    
     
   end
   
   Então('o nome da unidade precisa estar correto de acordo com a página anterior de busca de unidades') do
-    pending # Write code here that turns the phrase above into concrete actions
+    @unidades_page.valida_nome_unidade(@unidade_nome)
   end
