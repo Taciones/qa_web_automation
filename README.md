@@ -1,43 +1,29 @@
-# [Fleury] - QA Automação
+# Realizar testes no site www.fleury.com.br
 ## Desafio Web
 
-### Requisitos
+### Pré Condições
 
-- Ruby, Selenium ou Cypress
-- Capybara
-- Cucumber
-- BDD
-- Report
-- Page Objects
+- Ruby instalado
 
-### Sugestões:
+### Strategia
 
-- Aplicar alguma técnica de Page Objects e Justificar
-- Evitar Hard-Code
-- Inserir comentários/justificativas sobre seus scripts de automação 
+- Foi utilizado padrão de Page Objects e Page Elements para facilitar manutenções.
+- Foi utilizado arquivos yaml para facilitar alteração no framework.
+- Foi utilizado a menor quantidade de hardcodeds possível.
 
-### Teste:
 
-O Objetivo do teste consiste em validar o Nome da unidade que é exibida na tela, através do site [Fleury](http://www.fleury.com.br)
+### Iniciar os testes:
 
-### ![image.png](/images/Imagem01.png)
+Realizar o clone/dowload do projeto para maquina local.
+navegar até a página raiz do projeto.
+Digitar o seguinte comando para execução local:
 
-### ![image.png](/images/Imagem02.png)
+- cucumber
 
-### ![image.png](/images/Imagem03.png)
+### Reports:
 
-### ![image.png](/images/Imagem04.png)
-
-### Deve-se seguir estes passos:
-
-- Elaborar o cenário de testes em Gherkin com o comportamento das telas acima capturadas.
-- Montar o script de automação com todos os requisitos solicitados
-- Gerar um report e inclui-lo no commit, comprovando que o teste deu OK ao ser executado
-
-### Como submeter?
-
-O Participante deverá criar um projeto publico no Git pessoal dele e após o Termino do Teste, deverá enviar a URL com o Projeto desenvolvido.
-
+Os testes foram realizados local e passaram.
+O report se encontra [aqui](https://github.com/Taciones/qa_web_automation/tree/main/log/2021-05-31T22-09-15-03-00)
 
 
 
