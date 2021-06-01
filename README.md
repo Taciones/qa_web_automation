@@ -23,7 +23,8 @@ Digitar o seguinte comando para execução local:
 ### Reports:
 
 Os testes foram realizados local e passaram.
-O report se encontra [aqui](https://github.com/Taciones/qa_web_automation/tree/main/log/2021-05-31T22-09-15-03-00)
+O report se encontra [aqui](https://github.com/Taciones/qa_web_automation/blob/main/log/2021-05-31T22-09-15-03-00.html)
+![Report_OK](https://github.com/Taciones/qa_web_automation/blob/main/images/report_ok.png)
 
 
 
